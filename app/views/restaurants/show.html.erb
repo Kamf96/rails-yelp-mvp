@@ -1,0 +1,18 @@
+<h1><%= @restaurant.name %></h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Phone number</th>
+    <th>Category</th>
+  </tr>
+  <tr>
+    <td><%= @restaurant.name %></td>
+    <td><%= @restaurant.address %></td>
+    <td><%= @restaurant.phone_number %></td>
+    <td><%= @restaurant.category %></td>
+  </tr>
+</table>
+
+<%= link_to 'Back to list', restaurants_path %>
